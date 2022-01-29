@@ -1,38 +1,20 @@
-# Boilerplate Vite React
+# React CRUD + utilização de API para listagem
 
-## Descrição:
-O Vite é uma nova forma de criar aplicações em React, levando em consideração diferentes fatores, como velocidade da criação/inicialização e o suporte e constante atualizações do pacote, estou utilizando ele como substituto do <a href="https://www.npmjs.com/package/create-react-app">create-react-app</a>.
+Link do site: <a href="https://crud-react-beers.netlify.app/">CRUD React</a>
 
-## Guia:
-Todas informações e documentação do Vite está em <a href="https://vitejs.dev/guide/">Getting Started Vite</a>.
+### Contatos e redes sociais:
 
-Para a documentação do próprio React temos o seguinte <a href="https://pt-br.reactjs.org/">link</a>.
+<div style="display: inline_block">
+  <a href="mailto:wesleyara.contato@gmail.com"><img alt="Wesley-GMAIL" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  <a href="https://www.linkedin.com/in/wesley-gomes-de-araújo-534a66221/"><img alt="Wesley-LINKE" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  <a href="https://www.instagram.com/wesleyaraujo_w/"><img alt="Wesley-INSTA" src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+</div>
 
-## O que já vem configurado?
-Tudo que eu julguei necessário na hora da criação de uma aplicação completa em React, como:
-<ul>
-<li>React Router: Para a criação de rotas na aplicação.</li>
-<li>Sass: Suporte para utilização de pré processadores CSS.</li>
-<li>ESlint: Configuração do ESlint.</li>
-<li>Prettier: Configuração do Prettier.</li>
-<li>Editorconfig: Configuração do editorconfig.</li>
-<li>Redirects: Redirecionamento para o deploy em host.</li>
-</ul>
+### Linguagens utilizadas:
 
-## Como usar?
-Esse boilerplate utiliza da linguagem TypeScript, caso você queira usar o próprio JavaScript, terá algumas coisas que deverão ser alteradas.
-
-### Instalação:
-Para utilizar a aplicação primeiro é necessário clonar este repositório.
-
-```
-git clone https://github.com/wesleyara/boilerplate-vite-react
-```
-
-Após ter clonado o repositório você terá que abrir o terminal e instalar todas as dependências:
-
-```
-npm install
-```
-
-Com isso, o boilerplate já está pronto para uso.
+<div style="display: inline_block;">
+  <img alt="Wesley-TS" src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white">
+  <img alt="Wesley-REACT" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
+  <img alt="Wesley-SASS" src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"> 
+</div>
+<br>
