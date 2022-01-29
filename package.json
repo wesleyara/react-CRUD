@@ -1,5 +1,5 @@
 {
-  "name": "boilerplate-react-vite",
+  "name": "react-crud",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
