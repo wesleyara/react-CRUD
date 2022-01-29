@@ -1,10 +1,12 @@
 import React from "react";
-import { Default } from "./components/Default";
+import Listagem from "./components/Listagem";
+import Header from "./layout/Header";
 
 function App() {
   return (
     <>
-      <Default />
+      <Header />
+      <Listagem />
     </>
   );
 }
