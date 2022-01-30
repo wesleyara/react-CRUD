@@ -4,7 +4,7 @@ import style from "../components-style/Listagem.module.scss";
 import xIcon from "../images/bxx.svg";
 
 export default function Listagem() {
-  const API_URL: any = "api.punkapi.com/v2/beers";
+  const API_URL: any = import.meta.env.VITE_API_URL;
 
   interface Props {
     id: number;
@@ -78,6 +78,11 @@ export default function Listagem() {
     localStorage.setItem("setItem", JSON.stringify(filteredItemNew));
   }
 
+  function clearLocal() {
+    localStorage.clear();
+    location.reload();
+  }
+
   return (
     <div className={style.bxListagem}>
       <div className={style.bxSearch}>
@@ -88,7 +93,8 @@ export default function Listagem() {
           id="search"
           placeholder="Pesquisar"
         />
-        <div className={style.searchBtn}></div>
+        <div className={style.searchBtn}>&#128269;</div>
+        <button onClick={clearLocal} className={style.reload}>&#8634;</button>
       </div>
       <div id="lista" className={style.listContainer}>
         {item.map((val) => {
@@ -99,10 +105,10 @@ export default function Listagem() {
                 key={val.id}
                 className="delBtn"
               >
-                  <img src={xIcon} alt=""/>
+                {xIcon}
               </div>
               <div className="imgContainer">
-                <img src={val.image_url} alt="" />
+                <img loading="lazy" src={val.image_url} alt="" />
               </div>
               <div className="descContainer">
                 <h3>{val.name}</h3>
