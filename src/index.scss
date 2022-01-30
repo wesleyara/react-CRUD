@@ -1,11 +1,11 @@
-$color-primary: #efeeee;
-$color-secondary: #c4c4c4;
+$color-primary: #33b2eb;
+$color-secondary: #2a4af6;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .header {
@@ -29,16 +29,31 @@ $color-secondary: #c4c4c4;
   }
 
   li:hover {
-    background-color: white;
-    transform: scale(1.1);
+    background-color: $color-secondary;
+    color: white;
+    transform: scale(1.2);
   }
 
   .bxIcon {
     width: 50px;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: $color-secondary;
     border-radius: 50%;
     margin-left: 100px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+
+    .bx.bx-face {
+      color: white;
+      font-size: 30px;
+    }
+  }
+
+  .bxIcon:hover {
+    transform: scale(1.2);
   }
 
   a {
@@ -50,7 +65,7 @@ $color-secondary: #c4c4c4;
 .cardItem {
   width: 300px;
   padding: 30px 50px 0px 50px;
-  background-color: $color-primary;
+  background-image: linear-gradient($color-secondary, $color-primary);
   margin-top: 10px;
   height: 310px;
   overflow: hidden;
@@ -73,22 +88,23 @@ $color-secondary: #c4c4c4;
     }
 
     img:hover {
-      background-color: $color-secondary;
+      background-color: $color-primary;
     }
   }
 
   .imgContainer {
     width: 150px;
+    height: 150px;
     margin: auto;
-    background-color: $color-secondary;
+    background-color: $color-primary;
 
     img {
       height: 150px;
     }
   }
 
-  .descContainer { 
-    margin-top: 10px;
+  .descContainer {
+    margin-top: 20px;
     overflow: auto;
     height: 110px;
   }
