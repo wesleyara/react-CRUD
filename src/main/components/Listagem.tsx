@@ -99,7 +99,7 @@ export default function Listagem() {
                 key={val.id}
                 className="delBtn"
               >
-                {xIcon}
+                  <img src={xIcon} alt=""/>
               </div>
               <div className="imgContainer">
                 <img src={val.image_url} alt="" />
