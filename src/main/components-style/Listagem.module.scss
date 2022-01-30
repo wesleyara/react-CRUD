@@ -1,5 +1,5 @@
-$color-primary: #efeeee;
-$color-secondary: #c4c4c4;
+$color-primary: #33b2eb;
+$color-secondary: #2a4af6;
 
 .bxListagem {
   width: 950px;
@@ -11,14 +11,18 @@ $color-secondary: #c4c4c4;
     position: relative;
 
     .searchBtn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
       width: 35px;
       height: 35px;
       background-color: $color-secondary;
       border-radius: 50%;
       position: absolute;
-      left: 74%;
+      left: 69%;
       top: 50%;
-      transform: translate(-74%, -50%);
+      transform: translate(-69%, -50%);
     }
   }
 
@@ -29,6 +33,28 @@ $color-secondary: #c4c4c4;
     border-radius: 5px;
     background-color: $color-primary;
     font-size: 1rem;
+  }
+
+  .searchInput::placeholder {
+    color: black;
+  }
+
+  .reload {
+    font-size: 30px;
+    color: white;
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: none;
+    background-image: linear-gradient($color-secondary, $color-primary);
+    transform: rotate(0deg);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+
+  .reload:hover {
+    transform: rotate(-360deg);
   }
 
   .listContainer {
