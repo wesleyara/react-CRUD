@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div className="header">
-      <div className="bxIcon"></div>
+      <div className="bxIcon"><i className='bx bx-face'></i></div>
       <div>
         <ul>
           <Link to="/">
