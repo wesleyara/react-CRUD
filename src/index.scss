@@ -46,3 +46,59 @@ $color-secondary: #c4c4c4;
     color: black;
   }
 }
+
+.cardItem {
+  width: 300px;
+  padding: 30px 50px 0px 50px;
+  background-color: $color-primary;
+  margin-top: 10px;
+  height: 310px;
+  overflow: hidden;
+  position: relative;
+
+  .delBtn {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    top: 1%;
+    left: 95%;
+    transform: translate(-95%, -1%);
+
+    img {
+      width: 40px;
+      border-radius: 50%;
+    }
+
+    img:hover {
+      background-color: $color-secondary;
+    }
+  }
+
+  .imgContainer {
+    width: 150px;
+    margin: auto;
+    background-color: $color-secondary;
+
+    img {
+      height: 150px;
+    }
+  }
+
+  .descContainer { 
+    margin-top: 10px;
+    overflow: auto;
+    height: 110px;
+  }
+
+  p {
+    margin-top: 10px;
+    text-align: justify;
+  }
+}
+
+.remov {
+  display: none;
+}
