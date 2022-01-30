@@ -104,9 +104,10 @@ $color-secondary: #2a4af6;
   }
 
   .descContainer {
-    margin-top: 20px;
+    margin-top: 15px;
+    overflow-wrap: break-word;
     overflow: auto;
-    height: 110px;
+    height: 90px;
   }
 
   p {
