@@ -1,6 +1,6 @@
-
-$color-primary: #efeeee;
-$color-secondary: #c4c4c4;
+$color-primary: #33b2eb;
+$color-secondary: #2a4af6;
+$color-terciary: #2D7AE3;
 
 .bxCadastro {
   width: 500px;
@@ -30,7 +30,7 @@ $color-secondary: #c4c4c4;
   }
 
   button:hover {
-    background-color: $color-secondary;
+    background-image: linear-gradient($color-primary, $color-terciary);
     padding: 15px 80px 15px 80px;
   }
 
