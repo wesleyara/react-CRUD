@@ -1,9 +1,8 @@
-
 $color-primary: #efeeee;
 $color-secondary: #c4c4c4;
 
 .bxListagem {
-  width: 850px;
+  width: 950px;
   margin: auto;
   margin-top: 100px;
   text-align: center;
@@ -17,9 +16,9 @@ $color-secondary: #c4c4c4;
       background-color: $color-secondary;
       border-radius: 50%;
       position: absolute;
-      left: 77%;
+      left: 74%;
       top: 50%;
-      transform: translate(-77%, -50%);
+      transform: translate(-74%, -50%);
     }
   }
 
@@ -39,52 +38,5 @@ $color-secondary: #c4c4c4;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-  }
-
-  .cardItem {
-    width: 260px;
-    padding: 30px 50px 0px 50px;
-    background-color: $color-primary;
-    margin-top: 10px;
-    height: 310px;
-    overflow: hidden;
-    position: relative;
-
-    .delBtn {
-      position: absolute;
-      width: 30px;
-      height: 30px;
-      border-radius: 50%;
-      font-size: 25px;
-      cursor: pointer;
-      top: 2%;
-      left: 96%;
-      transform: translate(-96%, -2%);
-    }
-
-    .delBtn:hover {
-      background-color: $color-secondary;
-    }
-
-    .imgContainer {
-      width: 100%;
-      margin: auto;
-      background-color: $color-secondary;
-    }
-
-    img {
-      height: 150px;
-    }
-
-    .descContainer { 
-      margin-top: 10px;
-      overflow: auto;
-      height: 110px;
-    }
-
-    p {
-      margin-top: 10px;
-      text-align: justify;
-    }
   }
 }
