@@ -122,9 +122,13 @@ $color-secondary: #2a4af6;
 
 @media screen and (max-width: 500px) {
   .header {
-    justify-content: space-between;
+    justify-content: space-around;
 
     ul {
+      margin-right: 0px;
+    }
+
+    li {
       margin-right: 0px;
     }
 
