@@ -38,3 +38,11 @@ $color-terciary: #2D7AE3;
     margin-top: 10px;
   }
 }
+
+@media screen and (max-width: 500px) {
+  
+  .bxCadastro {
+    width: 300px;
+  }
+
+}

@@ -119,3 +119,18 @@ $color-secondary: #2a4af6;
 .remov {
   display: none;
 }
+
+@media screen and (max-width: 500px) {
+  .header {
+    justify-content: space-between;
+
+    ul {
+      margin-right: 0px;
+    }
+
+    .bxIcon {
+      margin-left: 0px;
+    }
+  }
+  
+}

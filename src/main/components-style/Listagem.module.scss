@@ -66,3 +66,26 @@ $color-secondary: #2a4af6;
     flex-wrap: wrap;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .bxListagem {
+    width: 300px;
+
+    .searchInput {
+      width: 300px;
+    }
+
+    .bxSearch {
+      .searchBtn {
+        left: 97%;
+        top: 17%;
+        transform: translate(-97%, -17%);
+      }
+    }
+
+    .reload {
+      margin-left: 0px;
+      margin-top: 10px;
+    }
+  }
+}
